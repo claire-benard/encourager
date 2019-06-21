@@ -1,0 +1,12 @@
+Package: encourageR
+Type: Package
+Title: A World of Encouragements
+Version: 0.1.0
+Authors@R: person("Claire", email = "claire@wefarm.co",  role = c("aut", "cre"))
+Description: This package gives you words of encouragement when most needed.  
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    rvest
+RoxygenNote: 6.1.1
