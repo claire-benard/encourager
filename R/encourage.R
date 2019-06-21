@@ -4,7 +4,10 @@
 #   Check Package:             'Cmd + Shift + E'
 #   Test Package:              'Cmd + Shift + T'
 
+#' @export
+
 cheer_me <- function(){
   index <- sample(1:length(scraping_nodes), 1, replace=TRUE)
   cat(scraping_nodes[index])
 }
+
